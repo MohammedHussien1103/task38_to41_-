@@ -1,0 +1,134 @@
+ h1 {
+     text-align: center;
+     background-color: #eee;
+ }
+
+ .parent {
+     counter-increment: count;
+     background-color: #eee;
+     text-align: center;
+
+
+ }
+
+ .one {
+
+     display: inline-block;
+     background-color: #eee;
+     width: 100px;
+     height: 100px;
+     text-align: center;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     outline: 2px solid black;
+     box-shadow: 9px 5px 0 0 blue, -1px -11px 0 0 red;
+     margin: auto;
+
+
+
+ }
+
+
+
+
+
+ .two {
+     width: 100px;
+     height: 100px;
+     background-color: gray;
+     border-top-left-radius: 40px 26px;
+     border-bottom-right-radius: 40px 26px;
+     border-top-right-radius: 71px 57px;
+     border-bottom-left-radius: 71px 57px;
+     box-shadow: 9px 5px 5px 3px
+ }
+
+ .parent2 {
+     background-color: #eee;
+     width: 550px;
+     overflow: hidden;
+     margin: 20px auto;
+     padding: 20px;
+ }
+
+ .three {
+     background-color: blue;
+     width: 50px;
+     margin: 10px;
+     text-align: center;
+     border-radius: 6px;
+     -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+     -ms-border-radius: 6px;
+     -o-border-radius: 6px;
+     box-sizing: border-box;
+
+ }
+
+ .four {
+     background-color: gray;
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     text-align: center;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+     display: flex;
+     justify-content: center;
+     align-content: stretch;
+     flex-wrap: nowrap;
+     flex-direction: column-reverse;
+
+
+
+ }
+
+ .five {
+     background-color: blue;
+     width: 50px;
+     margin: 10px;
+     text-align: center;
+     border-radius: 6px;
+     -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+     -ms-border-radius: 6px;
+     -o-border-radius: 6px;
+     box-sizing: border-box;
+     position: absolute;
+     right: 226px;
+     top: 698px;
+
+
+ }
+
+ .six {
+     background-color: gray;
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     text-align: center;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+     display: flex;
+     justify-content: center;
+     align-content: stretch;
+     flex-wrap: nowrap;
+     flex-direction: column-reverse;
+     position: absolute;
+     right: 207px;
+     top: 749px;
+
+ }
